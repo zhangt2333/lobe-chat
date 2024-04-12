@@ -12,6 +12,27 @@ const OpenAI: ModelProviderCard = {
       tokens: 16_385,
     },
     {
+      displayName: 'GPT-4',
+      enabled: true,
+      functionCall: true,
+      id: 'gpt-4',
+      tokens: 32_768,
+    },
+    {
+      displayName: 'GPT-4 Mobile',
+      enabled: true,
+      functionCall: true,
+      id: 'gpt-4-mobile',
+      tokens: 32_768,
+    },
+    {
+      displayName: 'GPT-4 Gizmo',
+      enabled: true,
+      functionCall: true,
+      id: 'gpt-4-gizmo',
+      tokens: 32_768,
+    },
+    {
       displayName: 'GPT-3.5 Turbo (0125)',
       functionCall: true,
       id: 'gpt-3.5-turbo-0125',
@@ -77,12 +98,6 @@ const OpenAI: ModelProviderCard = {
       tokens: 128_000,
     },
     {
-      displayName: 'GPT-4',
-      functionCall: true,
-      id: 'gpt-4',
-      tokens: 8192,
-    },
-    {
       displayName: 'GPT-4 (0613)',
       functionCall: true,
       id: 'gpt-4-0613',
@@ -103,7 +118,6 @@ const OpenAI: ModelProviderCard = {
     {
       description: 'GPT-4 Turbo 视觉版',
       displayName: 'GPT-4 Turbo Vision',
-      enabled: true,
       functionCall: true,
       id: 'gpt-4-turbo',
       tokens: 128_000,
